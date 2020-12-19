@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.exist;
 public class ClearCompleteTodoTest extends BaseTest {
 
     @Test
-    public void createTodo() {
+    public void shouldClearCompleteTodoItem() {
         Todo.create("Read Book");
 
         Todo.markCompleted("Read Book");

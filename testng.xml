@@ -13,9 +13,22 @@
         </classes>
     </test>
 
-    <test name="Clear Todo">
+    <test name="Clear Complete Todo">
         <classes>
             <class name="todo.ClearCompleteTodoTest"/>
         </classes>
     </test>
+
+    <test name="Select All Todo">
+        <classes>
+            <class name="todo.SelectUnselectAllTodoTest"/>
+        </classes>
+    </test>
+
+    <test name="Check Todo Categories">
+        <classes>
+            <class name="todo.CheckTodoCategoriesTest"/>
+        </classes>
+    </test>
+
 </suite>
