@@ -37,7 +37,14 @@ public class Todo {
     }
 
     public static void toggleAll() {
-        $("#toggle-all").click();
+        $("#toggle-all+label").click();
+    }
 
+    public static void selectActiveTodos() {
+        $("a[href*=\"active\"]").click();
+    }
+
+    public static void selectCompletedTodos() {
+        $("a[href*=\"completed\"]").click();
     }
 }
